@@ -1,0 +1,11 @@
+
+  <div class="container" (click)="onClick()">
+    <p class="title">{{data?.tags}}</p>
+
+    <span class="info">
+      <app-info [data]="data?.views" imgUrl="./assets/view.png"></app-info>
+      <app-info [data]="data?.likes" imgUrl="./assets/like.png"> </app-info>
+    </span>
+
+    <img [src]="data?.largeImageURL" alt="" height="600">
+  </div>

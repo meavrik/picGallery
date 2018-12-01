@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(89, 89, 180);
+    color: white;
+    border: none;
+    outline: none;
+    transition: 300ms all;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(110, 110, 192);
+}
+
+button:active {
+    background-color: rgb(86, 86, 172);
+}

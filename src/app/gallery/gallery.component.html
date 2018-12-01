@@ -1,0 +1,5 @@
+ 
+<!-- <app-preview *ngIf="selected" [data]="selected"></app-preview> -->
+<div class="container" >
+  <app-thumb *ngFor="let item of images" [data]="item" (selected)="onThumbSelect($event)"></app-thumb>
+</div>

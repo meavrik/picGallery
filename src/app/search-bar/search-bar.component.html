@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="search-container" onsubmit="">
+      <input #inp type="text" placeHolder="find images" (keyup)="onKeyup($event,inp.value)">
+      <button type="submit" (click)="onSearch(inp.value)" > Search</button>
+  </div>
+  <p style="color:white" *ngIf="images && !images.length">no results found</p>
+</div>
